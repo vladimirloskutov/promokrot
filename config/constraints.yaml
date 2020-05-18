@@ -1,0 +1,4 @@
+fileConstraints:
+  filesize: 1000000
+  mime-type:
+      - text/plain
