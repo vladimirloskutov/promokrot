@@ -1,5 +1,12 @@
 # Поиск вхождений в файле
 
+#### Установка:
+
+- `composer require symfony/flex`
+- `composer require vladimirloskutov/promokrot:dev-master`
+
+Packagist: `https://packagist.org/packages/vladimirloskutov/promokrot`
+
 #### Как работать:
 
 Шаблон команды `app:find <value> <path> [--type]`
@@ -13,6 +20,5 @@
 
 - Также справка доступна по команде: `php bin/console app:find --help`.
 
-Пример использования: `php bin/console app:find localhost /etc/hosts --type=substring`
-
-<a href="https://asciinema.org/a/EWohr9HGAAmYZOPrs6ScKUXj9" target="_blank"><img src="https://asciinema.org/a/EWohr9HGAAmYZOPrs6ScKUXj9.svg" /></a>
+#### Пример установки и использования:
+<a href="https://asciinema.org/a/Bs4UPJdnjsjl5GeV9CuU1BXaS" target="_blank"><img src="https://asciinema.org/a/Bs4UPJdnjsjl5GeV9CuU1BXaS.svg" /></a>
