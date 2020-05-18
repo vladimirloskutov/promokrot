@@ -66,7 +66,7 @@ class OccurrenceFinder
         $error = '';
         $headers = get_headers($path);
 
-        if(strpos('200', $headers[0])) {
+        if(strpos($headers[0], '404' )) {
             $error = "<error>Укажите корректный путь до файла</error>";
         }
 
